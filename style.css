@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(203, 228, 226);
+  text-align: center;
+}
+
+/* Mobile CSS */
+
+/* Tablet CSS */
+@media (min-width: 415px) {
+}
+
+/* Desktop CSS */
+@media (min-width: 1024px) {
+  nav {
+    width: 100vw;
+    background-color: rgb(4, 43, 39);
+    position: sticky;
+    top: 0;
+  }
+
+  ul {
+    text-align: right;
+    padding: 10px;
+  }
+
+  li,
+  li a {
+    display: inline;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(203, 228, 226);
+  }
+
+  #imgcont {
+    width: 40vw;
+    text-align: left;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  img {
+    max-width: 400px;
+    width: 20vw;
+    border-radius: 10vw;
+    box-shadow: 4px 4px 8
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  ol {
+    display: inline-block;
+  }
+
+  h1 {
+    margin: 20px;
+    font-size: 60px;
+    color: rgb(4, 43, 39);
+  }
+
+  p {
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 26px;
+    color: rgb(4, 43, 39);
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: rgb(203, 228, 226);
+    background-color: rgb(4, 43, 39);
+    font-size: 24px;
+    width: 140px;
+    border: none;
+    outline: none;
+    border-radius: 28px;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: rgba(4, 43, 39, 0.829);
+    cursor: pointer;
+  }
+
+  .project {
+    width: 40vw;
+    min-width: 300px;
+    display: inline-block;
+    background-color: rgb(4, 43, 39);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(203, 228, 226);
+    border-radius: 12px;
+  }
+
+  .project img {
+    box-shadow: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(203, 228, 226);
+    border-style: solid;
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .project h2 {
+    margin: 10px;
+  }
+
+  .project p {
+    color: rgb(203, 228, 226);
+    display: inline;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+  }
+
+  .moreclick {
+    color: rgba(203, 228, 226, 0.568);
+  }
+
+  .moreclick:hover {
+    cursor: pointer;
+  }
+}
